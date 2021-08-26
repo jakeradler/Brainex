@@ -1,0 +1,18 @@
+{
+  "short_name": "Brainex",
+  "name": "Brainex - BCI Extension",
+  "description": "Track your focus and calmness while searching the web.",
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo192.png",
+   "128": "logo512.png"
+  },
+  "permissions": [],
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Brainex"
+  },
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://s-usc1c-nss-370.firebaseio.com; object-src 'self'"
+}
